@@ -1,0 +1,45 @@
+
+body {
+	margin: 0;
+}
+
+.site {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-areas: 
+  	"nav nav"
+  	"main sidebar"
+  	"footer footer"
+}
+
+.masthead,
+.page-title,
+.main-content,
+.sidebar,
+.footer-content {
+	/*margin-bottom: 1em;*/
+    padding: 1em;
+    color: white;
+
+}
+
+.nav {
+    background-color: #b46ae3;
+    grid-area: nav;
+}
+
+.main-content {
+    background-color: #70bf40;
+    grid-area: main
+}
+
+.sidebar {
+    background-color: #f49018;
+    grid-area: sidebar;
+}
+
+.footer-content {
+    background-color: #0265c0;
+    grid-area: footer;
+}
