@@ -3,6 +3,7 @@ html {
   min-height:100%;
   background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/background.jpg);
   background-size:cover;
+  font-family: sans-serif;
   }
 
 body {
@@ -22,27 +23,31 @@ body {
   	"footer footer"
 }
 
-.mainItem{
-  justify-self: center;
-}
-
 .nav {
-    background-color: rgba(255, 0, 0, 0.3);
     grid-area: nav;
-
 }
 
 .main-content {
-    background-color: rgba(0, 255, 0, 0.3);
     grid-area: main;
+    justify-self: center;
+    align-self: center;
 }
 
 .sidebar {
-    background-color: rgba(255, 0, 255, 0.3);
     grid-area: sidebar;
 }
 
 .footer-content {
-    background-color: rgba(0, 0, 255, 0.3);
     grid-area: footer;
+}
+
+input{
+  height: 30px;
+  width: 120px;
+  border-radius: 4px;
+  border: none;
+}
+
+h1{
+  color: #ffffff;
 }
