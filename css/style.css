@@ -22,14 +22,6 @@ body {
   	"footer footer"
 }
 
-.masthead,
-.page-title,
-.main-content,
-.sidebar,
-.footer-content {
-    /* padding: 1em; */
-}
-
 .nav {
     background-color: rgba(255, 0, 0, 0.3);
     grid-area: nav;
@@ -39,6 +31,7 @@ body {
 .main-content {
     background-color: rgba(0, 255, 0, 0.3);
     grid-area: main;
+    justify-content: center;
 }
 
 .sidebar {
